@@ -12,3 +12,5 @@ Amaç; verilen domain hakkında bilgi sahibi olmaktır. Aynı zamanda belirtilen
 Bununla beraber "VirusTotal" sitesinden API'ler kullanılarak geliştirilmeyi amaçlanmaktadır.
 
 Ek olarak "Siber Tehtid İstihbaratı" kısmına da girmeyi ve verilen domain'e göre sosyal medya sitelerinde de bir "harvest" yaparak olumsuz veya tehtid unsuru oluşturabilecek cümleleri, kelimeleri veya atılan mesajları tespit edilebilmesi amaçlanmaktadır.
+
+#Tarama sonucunda terminal açıldı. Böylelikle herhangi bir kisi sonuclarin dogrulugu icin manuel olarak kullanabilecek
