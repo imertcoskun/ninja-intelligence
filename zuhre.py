@@ -39,12 +39,12 @@ print ("BlockListSip")
 print (BlockListSip.content)
 print ("============")
 if baglanti in str(BlockListSip.content):
-    BlockListSipBilgi=str(baglanti)+" SIP, VOIP serverlarına giris icin blocklistde raporlanmistir. Hadi temizle simdi salak\n"
+    BlockListSipBilgi=str(baglanti)+" SIP, VOIP serverlarına giris icin blocklistde raporlanmistir.\n"
     dosya=open(dosyaAdi,"a")
     dosya.write(BlockListSipBilgi)
     dosya.close()
 else:
-    BlockListSipBilgi=str(baglanti)+" SIP, VOIP serverlarına giris icin blocklistde raporlanmamistir.Good reis good\n"
+    BlockListSipBilgi=str(baglanti)+" SIP, VOIP serverlarına giris icin blocklistde raporlanmamistir.\n"
     dosya=open(dosyaAdi,"a")
     dosya.write(BlockListSipBilgi)
     dosya.close()
@@ -96,4 +96,4 @@ else:
     dosya.write(OpenphishBilgi)
     dosya.close()
 
-subprocess.call('gnome-terminal',shell=True)
+#subprocess.call('gnome-terminal',shell=True) --> yorum satiri olarak eklenmistir. Daha sonradan ek olarak islemler terminal uzerinden devam edecektir.
